@@ -16,4 +16,8 @@ export class AppComponent {
 
   angularLogo = 'https://angular.io/assets/images/logos/angular/angular.png';
   buttonStatus = 'enabled';
+
+  myEvent(event){
+    console.log(event);
+  }
 }

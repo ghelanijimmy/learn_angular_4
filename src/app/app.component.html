@@ -10,3 +10,5 @@
   <ng-template #otherTmpl>No, array doesn't exist.</ng-template>
   <ng-template #tmpl1>Array exists</ng-template>
 <button [disabled] = "buttonStatus == 'enabled'">My Button</button>
+<button (click)="myEvent($event)">My Button</button>
+<button (mouseenter)="myEvent($event)">My Button</button>
