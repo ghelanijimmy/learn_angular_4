@@ -1,0 +1,12 @@
+*{
+  font-family: "Open Sans", sans-serif;
+}
+.red-title {
+  font-size: 50px;
+  line-height: 52px;
+  color: red;
+}
+.large-title {
+  font-size: 3em;
+  line-height: 2em;
+}

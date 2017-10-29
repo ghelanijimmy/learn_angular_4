@@ -20,4 +20,16 @@ export class AppComponent {
   myEvent(event){
     console.log(event);
   }
+  title = "My App";
+  titleClass = 'red-title';
+
+  titleClasses = {
+    'red-title': true,
+    'large-title': true
+  }
+  titleStyle = true;
+  titleStyles = {
+    'color': 'salon',
+    'font-size': '1em'
+  }
 }
